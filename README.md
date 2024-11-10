@@ -45,53 +45,11 @@ To install the dependencies, run:
 ```bash
 pip install -r requirements.txt
 
+python app.py
+
+python crudtests.py
 ```
 ---
 
-## Project Structure
 
-/project-directory
-    ├── app.py                   # Main Flask application
-    ├── config.py                # Configuration file for Flask and database
-    ├── models.py                # SQLAlchemy models for database interaction
-    ├── templates/
-    │   └── index.html           # HTML template for the index page
-    ├── requirements.txt         # Python dependencies
-    └── README.md                # Documentation for the project
-
----
-
-## Configuration
-
-The application configuration is stored in config.py, which includes the following key settings:
-
-    SQLALCHEMY_DATABASE_URI: URI to connect to the database (e.g., SQLite, PostgreSQL, etc.)
-    SQLALCHEMY_TRACK_MODIFICATIONS: Disables modification tracking for performance reasons.
-
-Setting Up the Application
-
-To set up the application on your local machine, follow these steps:
-
-    Clone the repository to your local machine:
-
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-
-Install the dependencies:
-
-pip install -r requirements.txt
-
-Run the application once to initialize the database and create the required tables:
-
-    python app.py
-
-    This will automatically create the necessary tables in the database using SQLAlchemy's db.create_all().
-
-Running the Application
-
-To run the Flask application locally in development mode, execute the following command:
-
-python app.py
-
-By default, the server will start on http://localhost:5000.
 
