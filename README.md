@@ -145,19 +145,20 @@ Here are the full URLs for the available API endpoints:
 
 1. **GET** `http://127.0.0.1:5000/`  
    (Renders the `index.html` page)
+   ```bash http://127.0.0.1:5000/ ```
 
-2. **GET** `http://127.0.0.1:5000/getAllData`  
+3. **GET** `http://127.0.0.1:5000/getAllData`  
    (Fetches all data from the database)
 
-3. **GET** `http://127.0.0.1:5000/fetchData`  
+4. **GET** `http://127.0.0.1:5000/fetchData`  
    (Fetches data from the external API and stores it in the database)
 
-4. **PUT** `http://127.0.0.1:5000/editData/<int:id>`  
+5. **PUT** `http://127.0.0.1:5000/editData/<int:id>`  
    (Edits a person's data by their ID)
 
-5. **GET** `http://127.0.0.1:5000/getData/<int:id>`  
+6. **GET** `http://127.0.0.1:5000/getData/<int:id>`  
    (Gets a person's data by their ID)
 
-6. **DELETE** `http://127.0.0.1:5000/deleteData/<int:id>`  
+7. **DELETE** `http://127.0.0.1:5000/deleteData/<int:id>`  
    (Deletes a person from the database by their ID)
 
