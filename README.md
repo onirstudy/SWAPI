@@ -138,37 +138,13 @@ Here are the full URLs for the endpoints:
     DELETE http://127.0.0.1:5000/deleteData/<int:id> 
     (Deletes a person from the database by their ID)
 
-
-## API Endpointss
-
-Here are the full URLs for the available API endpoints:
-
-1. **GET** `http://127.0.0.1:5000/`  
-   (Renders the `index.html` page)  
-   ```bash
+```bash
    http://127.0.0.1:5000/
+```
+```bash
+   http://127.0.0.1:5000/
+```
+```bash
+   http://127.0.0.1:5000/
+```
 
-    GET http://127.0.0.1:5000/getAllData
-    (Fetches all data from the database)
-
-http://127.0.0.1:5000/getAllData
-
-GET http://127.0.0.1:5000/fetchData
-(Fetches data from the external API and stores it in the database)
-
-http://127.0.0.1:5000/fetchData
-
-PUT http://127.0.0.1:5000/editData/<int:id>
-(Edits a person's data by their ID)
-
-http://127.0.0.1:5000/editData/<int:id>
-
-GET http://127.0.0.1:5000/getData/<int:id>
-(Gets a person's data by their ID)
-
-http://127.0.0.1:5000/getData/<int:id>
-
-DELETE http://127.0.0.1:5000/deleteData/<int:id>
-(Deletes a person from the database by their ID)
-
-http://127.0.0.1:5000/deleteData/<int:id>
