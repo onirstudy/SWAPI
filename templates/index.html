@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWAPI</title>
+    <style>
+      * {
+        text-decoration: none;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+      }
+      h3 {
+        margin-block: 10px;
+        font-weight: 400;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Star Wars API (SWAPI)</h1>
+
+      <!-- Link to Get All Data -->
+      <a href="http://127.0.0.1:5000/getAllData" target="">
+        <h3>Get All Data</h3>
+      </a>
+
+      <!-- Link to Fetch Data -->
+      <a href="http://127.0.0.1:5000/fetchData" target="">
+        <h3>Fetch Data & Save</h3>
+      </a>
+
+      <!-- Link to Edit Data (Example ID: 1) -->
+      <a href="http://127.0.0.1:5000/editData/1" target="">
+        <h3>Edit Data Using Json</h3>
+      </a>
+
+      <!-- Link to Get Data by ID (Example ID: 1) -->
+      <a href="http://127.0.0.1:5000/getData/1" target="">
+        <h3>Get Data By Id</h3>
+      </a>
+
+      <!-- Link to Delete Data by ID (Example ID: 1) -->
+      <a href="http://127.0.0.1:5000/deleteData/1000" target="">
+        <h3>Delete Data By Id</h3>
+      </a>
+    </div>
+  </body>
+</html>
