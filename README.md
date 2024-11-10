@@ -77,6 +77,8 @@ The project directory structure is as follows:
 
     📁.venv
     ├── app.py                   # Main Flask application
+    ├── crudtests.py             # Tests for CRUD functionality
+    ├── deletetestcase.py        # Tests for only deleteTestCase functionality
     ├── config.py                # Configuration file for Flask and database
     ├── models.py                # SQLAlchemy models for database interaction
     ├── templates/
