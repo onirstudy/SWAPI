@@ -120,21 +120,44 @@ python app.py
 
 Here are the full URLs for the endpoints:
 
-    GET http://127.0.0.1:5000/
+    GET http://127.0.0.1:5000/  ```bash http://127.0.0.1:5000/ ```
     (Renders the index.html page)
 
-    GET http://127.0.0.1:5000/getAllData
+    GET http://127.0.0.1:5000/getAllData  ```bash http://127.0.0.1:5000/ ```
     (Fetches all data from the database)
 
-    GET http://127.0.0.1:5000/fetchData
+    GET http://127.0.0.1:5000/fetchData   ```bash http://127.0.0.1:5000/ ```
     (Fetches data from the external API and stores it in the database)
 
-    PUT http://127.0.0.1:5000/editData/<int:id>
+    PUT http://127.0.0.1:5000/editData/<int:id>   ```bash http://127.0.0.1:5000/ ```
     (Edits a person's data by their ID)
-
-    GET http://127.0.0.1:5000/getData/<int:id>
+ 
+    GET http://127.0.0.1:5000/getData/<int:id>    ```bash http://127.0.0.1:5000/ ```
     (Gets a person's data by their ID)
 
-    DELETE http://127.0.0.1:5000/deleteData/<int:id>
+    DELETE http://127.0.0.1:5000/deleteData/<int:id>  ```bash http://127.0.0.1:5000/ ```
     (Deletes a person from the database by their ID)
+
+
+
+
+Here are the full URLs for the available API endpoints:
+
+1. **GET** `http://127.0.0.1:5000/`  
+   (Renders the `index.html` page)
+
+2. **GET** `http://127.0.0.1:5000/getAllData`  
+   (Fetches all data from the database)
+
+3. **GET** `http://127.0.0.1:5000/fetchData`  
+   (Fetches data from the external API and stores it in the database)
+
+4. **PUT** `http://127.0.0.1:5000/editData/<int:id>`  
+   (Edits a person's data by their ID)
+
+5. **GET** `http://127.0.0.1:5000/getData/<int:id>`  
+   (Gets a person's data by their ID)
+
+6. **DELETE** `http://127.0.0.1:5000/deleteData/<int:id>`  
+   (Deletes a person from the database by their ID)
 
