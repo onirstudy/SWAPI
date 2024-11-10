@@ -31,11 +31,9 @@ This is a simple Flask-based REST API that allows users to manage people data (l
 
 ---
 
-## Requirements
+## Configuration
 
-Follow these steps to set up and run the Flask application on your local machine.
-
-### 1. Clone the Repository
+### Clone the Repository
 
 First, clone the project repository to your local machine using Git:
 
@@ -43,6 +41,11 @@ First, clone the project repository to your local machine using Git:
 git clone https://github.com/onirstudy/SWAPI.git
 cd SWAPI
 ```
+
+---
+## Requirements
+
+Follow these steps to set up and run the Flask application on your local machine.
 
 Before you begin, ensure you have the following installed:
 
