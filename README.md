@@ -62,5 +62,25 @@ python crudtests.py
 Each command is enclosed in its own code block, making the instructions clear and easy to follow when viewed in the `README.md` file.
 
 ---
+# SWAPI
+
+### Description
+
+SWAPI is a simple Flask application that interacts with a database using SQLAlchemy to provide data from the Star Wars API.
+
+### Project Structure
+
+The project directory structure is as follows:
+
+
+📁SWAPI
+
+    ├── app.py                   # Main Flask application
+    ├── config.py                # Configuration file for Flask and database
+    ├── models.py                # SQLAlchemy models for database interaction
+    ├── templates/
+    │   └── index.html           # HTML template for the index page
+    ├── requirements.txt         # Python dependencies
+    └── README.md                # Documentation for the project
 
 
