@@ -102,6 +102,18 @@ The project directory structure is as follows:
 
 ---
 
+## Running the Application
 
+Once you have set up the application, you can run it locally by following these steps:
+
+### 1. Start the Flask Application
+
+To run the Flask app, use the following command:
+
+```bash
+python app.py
+```
+
+---
 
 
