@@ -120,36 +120,23 @@ python app.py
 
 Here are the full URLs for the endpoints:
 
-    GET http://127.0.0.1:5000/ 
-    (Renders the index.html page)
-
-    GET http://127.0.0.1:5000/getAllData 
-    (Fetches all data from the database)
-
-    GET http://127.0.0.1:5000/fetchData  
-    (Fetches data from the external API and stores it in the database)
-
-    PUT http://127.0.0.1:5000/editData/<int:id>  
-    (Edits a person's data by their ID)
- 
-    GET http://127.0.0.1:5000/getData/<int:id>   
-    (Gets a person's data by their ID)
-
-    DELETE http://127.0.0.1:5000/deleteData/<int:id> 
-    (Deletes a person from the database by their ID)
-
+(Renders the index.html page)
 ```bash
    http://127.0.0.1:5000/
 ```
+   (Fetches all data from the database)
 ```bash
    http://127.0.0.1:5000/getAllData
 ```
+   (Fetches data from the external API and stores it in the database)
 ```bash
    http://127.0.0.1:5000/fetchData
 ```
+ (Edits a person's data by their ID) (in The form of JSON)
 ```bash
    http://127.0.0.1:5000/editData/<int:id>
 ```
+   (Gets a person's data by their ID) 
 ```bash
    http://127.0.0.1:5000/getData/<int:id>
 ```
