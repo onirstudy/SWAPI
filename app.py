@@ -94,10 +94,13 @@ def deleteData(id):
         return jsonify({"message": "Person deleted successfully!"}), 200
     return jsonify({"message": "Person not found!"}), 404
 
-import sys
-
-# Prevent Python from writing bytecode (.pyc files)
-sys.dont_write_bytecode = True
+# Custom error handler for 405 Method Not Allowed
+@app.errorhandler(405)
+def method_not_allowed(error):
+    return jsonify({
+        "error": "Method Not Allowed",
+        "message": f"The {request.method} method is not allowed for this route."
+    }), 405
 
 if __name__ == '__main__':
     app.run(debug=True)
