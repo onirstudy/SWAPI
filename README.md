@@ -10,18 +10,17 @@ This is a simple Flask-based REST API application that interacts with a database
 2. [Requirements](#requirements)
 3. [Project Structure](#project-structure)
 4. [Configuration](#configuration)
-5. [Setting Up the Application](#setting-up-the-application)
-6. [Running the Application](#running-the-application)
-7. [API Endpoints](#api-endpoints)
-   1. [GET /](#get-)
-   2. [GET /getAllData](#get-alldata)
-   3. [GET /fetchData](#get-fetchdata)
-   4. [GET /getData/<int:id>](#get-getdataintid)
-   5. [PUT /editData/<int:id>](#put-editdataintid)
-   6. [DELETE /deleteData/<int:id>](#delete-deletedataintid)
-8. [Error Handling](#error-handling)
-9. [Example Usage](#example-usage)
-10. [License](#license)
+5. [Running the Application](#running-the-application)
+6. [API Endpoints](#api-endpoints)
+   1. [GET /](#api-endpoints)
+   2. [GET /getAllData](#api-endpoints)
+   3. [GET /fetchData](#api-endpoints)
+   4. [GET /getData/<int:id>](#api-endpoints)
+   5. [PUT /editData/<int:id>](#api-endpoints)
+   6. [DELETE /deleteData/<int:id>](#api-endpoints)
+
+7. [Example Usage](#example-usage)
+
 
 ---
 
