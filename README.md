@@ -116,4 +116,25 @@ python app.py
 
 ---
 
+##  API Endpoints
+
+Here are the full URLs for the endpoints:
+
+    GET http://127.0.0.1:5000/
+    (Renders the index.html page)
+
+    GET http://127.0.0.1:5000/getAllData
+    (Fetches all data from the database)
+
+    GET http://127.0.0.1:5000/fetchData
+    (Fetches data from the external API and stores it in the database)
+
+    PUT http://127.0.0.1:5000/editData/<int:id>
+    (Edits a person's data by their ID)
+
+    GET http://127.0.0.1:5000/getData/<int:id>
+    (Gets a person's data by their ID)
+
+    DELETE http://127.0.0.1:5000/deleteData/<int:id>
+    (Deletes a person from the database by their ID)
 
