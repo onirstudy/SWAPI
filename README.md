@@ -142,9 +142,19 @@ Here are the full URLs for the endpoints:
    http://127.0.0.1:5000/
 ```
 ```bash
-   http://127.0.0.1:5000/
+   http://127.0.0.1:5000/getAllData
 ```
 ```bash
-   http://127.0.0.1:5000/
+   http://127.0.0.1:5000/fetchData
+```
+```bash
+   http://127.0.0.1:5000/editData/<int:id>
+```
+```bash
+   http://127.0.0.1:5000/getData/<int:id>
+```
+  (Deletes a person from the database by their ID)
+```bash
+   http://127.0.0.1:5000/deleteData/<int:id>
 ```
 
