@@ -84,3 +84,13 @@ The project directory structure is as follows:
     └── README.md                # Documentation for the project
 
 
+📁SWAPI
+
+    📁.venv <br />
+    ├── app.py                   # Main Flask application
+    ├── config.py                # Configuration file for Flask and database
+    ├── models.py                # SQLAlchemy models for database interaction
+    ├── templates/
+    │   └── index.html           # HTML template for the index page
+    ├── requirements.txt         # Python dependencies
+    └── README.md                # Documentation for the project
