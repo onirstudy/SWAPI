@@ -53,7 +53,14 @@ pip install -r requirements.txt
 ```bash
 python crudtests.py
 ```
----
 
+### Explanation:
+- **First Command (`pip install -r requirements.txt`)**: This command installs all the dependencies listed in your `requirements.txt` file.
+- **Second Command (`python app.py`)**: This starts the main application by executing the `app.py` file.
+- **Third Command (`python crudtests.py`)**: This runs the tests defined in the `crudtests.py` file.
+
+Each command is enclosed in its own code block, making the instructions clear and easy to follow when viewed in the `README.md` file.
+
+---
 
 
