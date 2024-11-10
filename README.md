@@ -44,9 +44,13 @@ To install the dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
-python app.py
+```bash
+ python app.py
+```
 
+```bash
 python crudtests.py
 ```
 ---
