@@ -144,3 +144,9 @@ Here are the full URLs for the endpoints:
    http://127.0.0.1:5000/deleteData/<int:id>
 ```
 
+---
+
+## Example Usage
+
+[Click here to view](https://github.com/onirstudy/SWAPI/blob/main/API%20Endpoints%20Documentation.pdf)
+
